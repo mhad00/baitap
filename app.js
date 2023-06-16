@@ -21,7 +21,7 @@ console.log(sameNum(array1, array2));
 // bai 2
 function bigNum(arrA) {
   let arrBigNum = [];
-  arrA.sort();
+  arrA.sort((a,b) => a-b);
   for (let i = arrA.length - 2; i < arrA.length; i++) {
     arrBigNum.push(arrA[i]);
   }
