@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    width: 600px;
+    height: 260px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    box-shadow: 10px 10px 15px 6px rgba(0,0,0,0.1);
+}
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: wheat;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right {
+    /* float: right; */
+    width: 50%;
+    height: 100%;
+}
+.right>h4 {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.buttonX {
+    float: right;
+    margin: 10px 20px 0 0;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.1);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.rightInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px black solid;
+    width: 80%;
+    height: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-1 {
+    width: 80%;
+    height: 30px;
+    background-color: wheat !important;
+    border-radius: 10px;
+}
