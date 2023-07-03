@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       {item.map((itemData) => {
-        return <Product item={itemData} />;
+        return <Product {...itemData} />;
       })}
       {/* <Register></Register> */}
     </div>

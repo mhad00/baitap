@@ -1,0 +1,8 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Card > img:hover {
+  transform: scale(1.5);
+}
