@@ -6,7 +6,7 @@ import React, { useState } from "react";
 function App() {
   const item = [
     {
-      brand: "a",
+      brand: "a1",
       name: "aaa",
       id: "a1",
       price: "1",
